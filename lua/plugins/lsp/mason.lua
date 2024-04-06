@@ -60,6 +60,8 @@ return {
         "prettier", -- prettier formatter
         "pylint", -- python linter
         "stylua", -- lua formatter
+        "yamlfmt",
+        "yamllint",
       },
     })
   end,

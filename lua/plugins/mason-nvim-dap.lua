@@ -1,6 +1,6 @@
 return {
   "jay-babu/mason-nvim-dap.nvim",
-  esnure_installed = {
+  ensure_installed = {
     "python",
     "delve",
     "node2",
