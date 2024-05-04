@@ -2,11 +2,9 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 vim.keymap.set('n', '<leader>fn', ':echo expand("%:p")<CR>')
-vim.keymap.set('n', '<leader>cl', ':set cursorline<cr>')
 vim.keymap.set('n', '<leader>l', ':set scrolloff=999<cr>')
 vim.keymap.set('n', '<leader>nl', ':set scrolloff=0<cr>')
 vim.keymap.set('n', '<leader>bdd', ':%bd|e#<cr>')
-vim.keymap.set('n', '<leader>dm', ':delmarks ')
 vim.keymap.set('n', '<leader>mm', ':marks<cr>')
 
 --
